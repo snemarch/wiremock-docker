@@ -26,5 +26,6 @@ The WireMock artifact used is `wiremock-jre8-standalone`, quoting WireMock
 TODO
 ====
 * Add 'getting started' and perhaps samples – using as base container vs mount points.
+* Clean up build scripts and Docker Hub hooks.
 * See if it's possible to shrink JRE11 image with `jlink`. Might not be viable on Alpine, and could limit what's
     possible to do with extensions.
